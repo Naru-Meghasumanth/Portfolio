@@ -100,7 +100,24 @@ a{
     text-shadow: 1px 1px 2px white;
 }
 
-@media only screen and (max-width:300px) {
+.card-container{
+    gap: 15px;
+}
+.project-card{
+    box-shadow: 5px 5px 8px gray;
+    
+}
+
+.project-image{
+    height: 25vh;
+}
+
+.t-card{
+    height: 25vh;
+    padding: 0 20px;
+}
+
+@media screen and (min-width: 412px) and (max-width: 912px){
     .nav-container{
         display: none;
     }
